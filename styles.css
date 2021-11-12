@@ -1,0 +1,34 @@
+/*mobile display*/
+@media screen and (max-width: 375px) {
+    .menu {
+        flex-direction: column;
+    }
+}
+body {
+    background-image: url("/images/background.jpg");
+    color: white;}
+
+.header {text-align: center;}
+.about {margin-left: 20%; margin-right: 20%;}
+.menu { display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+button {
+        width: 140px;
+        height: 75px;
+        color: rgba(255, 255, 255, 0.808);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border-radius: 10px;
+        backdrop-filter: blur(3px);
+        background-color: rgba(0,0,0, 0.142);
+        box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px 2px;
+        border: 1px rgba(255, 255, 255, 0.13) solid;
+    }
