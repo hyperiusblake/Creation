@@ -16,6 +16,11 @@ html {
     margin-bottom: 10%;
   }
 
+
+  .carousel {
+    margin-top: -25%;
+  }
+
   .glass-container{
     width: 33%;
     height: 100px;
@@ -32,28 +37,21 @@ html {
     border-right: 2px rgba(40,40,40,0.35) solid;
     margin-bottom: 25%;
     margin-left: 33%;
+    margin-top: 30%;
 }
 
+/* MEDIA */
 .gallery {
-    background: #EEE;
+  margin-top: 50%;
+
   }
   
   .gallery-cell {
     width: 66%;
     height: 200px;
-    margin-right: 10px;
+    margin-right: 20px;
     background: #8C8;
     counter-increment: gallery-cell;
-  }
-  
-  /* cell number */
-  .gallery-cell:before {
-    display: block;
-    text-align: center;
-    content: counter(gallery-cell);
-    line-height: 200px;
-    font-size: 80px;
-    color: white;
   }
 
 /* ARCHIVE */
