@@ -1,34 +1,50 @@
-/*mobile display*/
-@media screen and (max-width: 375px) {
-    .menu {
-        flex-direction: column;
-    }
+@media screen and (min-width: 360px) {
+
+html {
+    background: url('images/sat.jpg') no-repeat center fixed;
+    background-size: cover;
+  }
+
+  .title {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .sub-title {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+
+  .glass-container{
+    width: 33%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0,191,255, 0.075);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 2px rgba(255,255,255,0.4) solid;
+    border-bottom: 2px rgba(40,40,40,0.35) solid;
+    border-right: 2px rgba(40,40,40,0.35) solid;
+    margin-bottom: 25%;
+    margin-left: 33%;
 }
-body {
-    background-image: url("/images/background.jpg");
-    color: white;}
 
-.header {text-align: center;}
-.about {margin-left: 20%; margin-right: 20%;}
-.menu { display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        margin-left: 15%;
-        margin-right: 15%;
-    }
 
-button {
-        width: 140px;
-        height: 75px;
-        color: rgba(255, 255, 255, 0.808);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        border-radius: 10px;
-        backdrop-filter: blur(3px);
-        background-color: rgba(0,0,0, 0.142);
-        box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px 2px;
-        border: 1px rgba(255, 255, 255, 0.13) solid;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
