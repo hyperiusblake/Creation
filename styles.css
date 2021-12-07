@@ -28,7 +28,7 @@
 
   #title {
     margin-bottom: -10%;
-    font-size: 75px;
+    font-size: 80px;
   }
 
   .abt-btn, .media-btn, .archive-btn {
@@ -76,6 +76,13 @@
     background-color: red;
     margin-left: 40px;
     padding-top: 10px;
+  }
+
+  .archive-area {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: whitesmoke
   }
 
   .slider {
@@ -134,7 +141,13 @@
 
   .archive-area {
     grid-area: archive;
-    background-color: black
+    background-color: black;
+    font-family: 'Fuzzy Bubbles', cursive;
+  }
+
+  .event-title {
+    font-size: 32px;
+    font-weight: bold;
   }
 
   .footer {
