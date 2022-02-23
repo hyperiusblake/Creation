@@ -11,6 +11,10 @@
 	padding-left: 60px;
 }
 
+header, #main {
+	background-color: black;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -34,6 +38,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
+
 	line-height: 1;
 }
 
@@ -212,7 +217,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 1.5em;
 	}
 
 	h3 {
@@ -242,7 +247,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h2 {
-			font-size: 1em;
+			font-size: 1.5em;
 		}
 
 		h3 {
@@ -1791,6 +1796,7 @@ input, select, textarea {
 	}
 
 	header p {
+		color:rgba(255, 255, 255, 0.5);
 		margin-top: -1em;
 	}
 
@@ -2710,15 +2716,15 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #797176;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				background-color: #797176;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #797176;
 			}
 
 			.tiles article.style4 > .image:before {
